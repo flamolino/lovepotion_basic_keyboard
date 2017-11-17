@@ -1,4 +1,4 @@
-# A basic and style keyboard for Love Potion 3ds using the bottom screen
+# A simple and stylish keyboard for Love Potion 3ds using the bottom screen
 <p align="left">
   <img src="https://i.imgur.com/oYQQs3v.png" width="350"/>
 </p>
