@@ -1,6 +1,6 @@
 
 function keyboard_load()
-	key_root = '/'																					
+	key_root = 'lovepotion_basic_keyboard/'																					
 	key_img_bg_b = love.graphics.newImage(key_root .. 'img/background_title_b.png')									-- load keyboard images
 	key_img_key = love.graphics.newImage(key_root .. 'img/v_keyboard_b.png')
 	key_imkey_g_select = love.graphics.newImage(key_root .. 'img/v_key_select.png')
@@ -25,6 +25,10 @@ function keyboard_load()
 	key_keys[4] = {'t', 'u', 'v', 'w', 'x', 'y', 'z', '0', '1', '2', '3', '4', '5', '6', '7'}
 	key_keys[5] = {'8', '9', '?', '!', '@', '#', '$', '%', '&', '*', '.', ',', ':', '+', '-'}
 
+end
+
+function keyboard_close()
+	-- set your close actions here
 end
 
 function keyboard_update(dt)
@@ -115,10 +119,7 @@ function keyboard_update(dt)
 			key_x_sel_m, key_y_sel_m = 50, 50
 			key_x_sel = 290
 			key_y_sel = 10
-
-			--	CLOSE ACTTIONS HERE
-			
-			--
+			keyboard_close()			
 		end
 		key_red_light = 255
 		key_click_wait = 100
@@ -146,4 +147,3 @@ function keyboard_draw()
 		love.graphics.print(key_typed_text, 10, 12)
 	end
 end
-
