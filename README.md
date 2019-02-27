@@ -14,5 +14,5 @@
 
 # License
 <p align="left">
-  Use as you wish lol
+  Free4all
 </p>
